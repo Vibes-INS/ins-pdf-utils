@@ -3,21 +3,10 @@
   "version": "1.0.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
-  "author": "INS",
-  "repository": "https://github.com/napi-rs/node-rs",
+  "repository": "git@github.com:napi-rs/package-template.git",
   "license": "MIT",
-  "keywords": [
-    "napi-rs",
-    "NAPI",
-    "N-API",
-    "Rust",
-    "node-addon",
-    "node-addon-api"
-  ],
-  "files": [
-    "index.d.ts",
-    "index.js"
-  ],
+  "keywords": ["napi-rs", "NAPI", "N-API", "Rust", "node-addon", "node-addon-api"],
+  "files": ["index.d.ts", "index.js"],
   "napi": {
     "name": "package-template",
     "triples": {
@@ -81,27 +70,14 @@
     "@node-rs/helper": "^1.2.0"
   },
   "lint-staged": {
-    "*.@(js|ts|tsx)": [
-      "prettier --write",
-      "eslint -c .eslintrc.yml --fix"
-    ],
-    "*.@(yml|yaml)": [
-      "prettier --parser yaml --write"
-    ],
-    "*.md": [
-      "prettier --parser markdown --write"
-    ],
-    "*.json": [
-      "prettier --parser json --write"
-    ]
+    "*.@(js|ts|tsx)": ["prettier --write", "eslint -c .eslintrc.yml --fix"],
+    "*.@(yml|yaml)": ["prettier --parser yaml --write"],
+    "*.md": ["prettier --parser markdown --write"],
+    "*.json": ["prettier --parser json --write"]
   },
   "ava": {
-    "require": [
-      "@swc-node/register"
-    ],
-    "extensions": [
-      "ts"
-    ],
+    "require": ["@swc-node/register"],
+    "extensions": ["ts"],
     "environmentVariables": {
       "TS_NODE_PROJECT": "./tsconfig.json"
     }
