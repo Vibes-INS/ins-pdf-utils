@@ -1,5 +1,5 @@
 {
-  "name": "ins-pdf-utils-2",
+  "name": "ins-pdf-utils-test",
   "version": "1.0.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
