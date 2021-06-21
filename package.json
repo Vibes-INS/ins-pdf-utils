@@ -113,19 +113,5 @@
     "singleQuote": true,
     "arrowParens": "always",
     "parser": "typescript"
-  },
-  "optionalDependencies": {
-    "vibes-pdf-utils-win32-x64-msvc": "^1.0.0",
-    "vibes-pdf-utils-darwin-x64": "^1.0.0",
-    "vibes-pdf-utils-linux-x64-gnu": "^1.0.0",
-    "vibes-pdf-utils-linux-x64-musl": "^1.0.0",
-    "vibes-pdf-utils-linux-arm64-gnu": "^1.0.0",
-    "vibes-pdf-utils-win32-ia32-msvc": "^1.0.0",
-    "vibes-pdf-utils-linux-arm-gnueabihf": "^1.0.0",
-    "vibes-pdf-utils-darwin-arm64": "^1.0.0",
-    "vibes-pdf-utils-android-arm64": "^1.0.0",
-    "vibes-pdf-utils-freebsd-x64": "^1.0.0",
-    "vibes-pdf-utils-linux-arm64-musl": "^1.0.0",
-    "vibes-pdf-utils-win32-arm64-msvc": "^1.0.0"
   }
 }
