@@ -1,12 +1,23 @@
 {
-  "name": "@napi-rs/package-template",
+  "name": "ins-pdf-utils",
   "version": "1.0.0",
   "description": "Template project for writing node package with napi-rs",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "author": "INS",
+  "repository": "https://github.com/napi-rs/node-rs",
   "license": "MIT",
-  "keywords": ["napi-rs", "NAPI", "N-API", "Rust", "node-addon", "node-addon-api"],
-  "files": ["index.d.ts", "index.js"],
+  "keywords": [
+    "napi-rs",
+    "NAPI",
+    "N-API",
+    "Rust",
+    "node-addon",
+    "node-addon-api"
+  ],
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
   "napi": {
     "name": "package-template",
     "triples": {
@@ -33,7 +44,7 @@
   },
   "scripts": {
     "artifacts": "napi artifacts",
-    "bench": "node -r @swc-node/register benchmark/bench.ts",
+    "bench": "echo bench",
     "build": "napi build --platform --release",
     "build:debug": "napi build --platform",
     "format": "run-p format:md format:json format:yaml format:source format:rs",
@@ -43,8 +54,8 @@
     "format:source": "prettier --config ./package.json --write './**/*.{js,ts}'",
     "format:yaml": "prettier --parser yaml --write './**/*.{yml,yaml}'",
     "lint": "eslint . -c ./.eslintrc.yml './**/*.{ts,tsx,js}'",
-    "prepublishOnly": "napi prepublish -t npm",
-    "test": "ava",
+    "prepublishOnly": "GITHUB_REPOSITORY=Vibes-INS/ins-pdf-utils.git napi prepublish -t npm",
+    "test": "echo Test",
     "version": "napi version"
   },
   "devDependencies": {
@@ -70,14 +81,27 @@
     "@node-rs/helper": "^1.2.0"
   },
   "lint-staged": {
-    "*.@(js|ts|tsx)": ["prettier --write", "eslint -c .eslintrc.yml --fix"],
-    "*.@(yml|yaml)": ["prettier --parser yaml --write"],
-    "*.md": ["prettier --parser markdown --write"],
-    "*.json": ["prettier --parser json --write"]
+    "*.@(js|ts|tsx)": [
+      "prettier --write",
+      "eslint -c .eslintrc.yml --fix"
+    ],
+    "*.@(yml|yaml)": [
+      "prettier --parser yaml --write"
+    ],
+    "*.md": [
+      "prettier --parser markdown --write"
+    ],
+    "*.json": [
+      "prettier --parser json --write"
+    ]
   },
   "ava": {
-    "require": ["@swc-node/register"],
-    "extensions": ["ts"],
+    "require": [
+      "@swc-node/register"
+    ],
+    "extensions": [
+      "ts"
+    ],
     "environmentVariables": {
       "TS_NODE_PROJECT": "./tsconfig.json"
     }
@@ -89,5 +113,19 @@
     "singleQuote": true,
     "arrowParens": "always",
     "parser": "typescript"
+  },
+  "optionalDependencies": {
+    "vibes-pdf-utils-win32-x64-msvc": "^1.0.0",
+    "vibes-pdf-utils-darwin-x64": "^1.0.0",
+    "vibes-pdf-utils-linux-x64-gnu": "^1.0.0",
+    "vibes-pdf-utils-linux-x64-musl": "^1.0.0",
+    "vibes-pdf-utils-linux-arm64-gnu": "^1.0.0",
+    "vibes-pdf-utils-win32-ia32-msvc": "^1.0.0",
+    "vibes-pdf-utils-linux-arm-gnueabihf": "^1.0.0",
+    "vibes-pdf-utils-darwin-arm64": "^1.0.0",
+    "vibes-pdf-utils-android-arm64": "^1.0.0",
+    "vibes-pdf-utils-freebsd-x64": "^1.0.0",
+    "vibes-pdf-utils-linux-arm64-musl": "^1.0.0",
+    "vibes-pdf-utils-win32-arm64-msvc": "^1.0.0"
   }
 }
