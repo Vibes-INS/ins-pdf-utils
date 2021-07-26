@@ -96,16 +96,15 @@
     toml "^3.0.0"
     tslib "^2.2.0"
 
-"@napi-rs/triples@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@napi-rs/triples/-/triples-1.0.2.tgz"
+"@napi-rs/triples@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
 
-"@node-rs/helper@^1.0.0", "@node-rs/helper@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@node-rs/helper/-/helper-1.2.0.tgz"
+"@node-rs/helper@^1.0.0", "@node-rs/helper@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.2.1.tgz#e079b05f21ff4329d82c4e1f71c0290e4ecdc70c"
   dependencies:
-    "@napi-rs/triples" "^1.0.2"
-    tslib "^2.2.0"
+    "@napi-rs/triples" "^1.0.3"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
