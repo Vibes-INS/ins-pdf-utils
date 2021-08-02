@@ -262,15 +262,16 @@
   dependencies:
     "@swc/core" "^1.2.59"
 
-"@swc-node/register@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.npmjs.org/@swc-node/register/-/register-1.3.2.tgz"
+"@swc-node/register@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@swc-node/register/-/register-1.3.3.tgz#419ec8aa67855ef19cb07e0025bb76dfa264d392"
   dependencies:
     "@swc-node/core" "^1.5.1"
     "@swc-node/sourcemap-support" "^0.1.8"
     chalk "^4.1.1"
-    debug "^4.3.1"
+    debug "^4.3.2"
     pirates "^4.0.1"
+    typescript "^4.3.5"
 
 "@swc-node/sourcemap-support@^0.1.8":
   version "0.1.8"
@@ -992,9 +993,9 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.1, debug@^4.3.1:
-  version "4.3.1"
-  resolved "https://registry.npmjs.org/debug/-/debug-4.3.1.tgz"
+debug@^4.0.1, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
   dependencies:
     ms "2.1.2"
 
