@@ -119,95 +119,90 @@
   version "0.14.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz"
 
-"@swc-node/core@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@swc-node/core/-/core-1.6.0.tgz#cf4acca4b13b46166cd79928d0cecd690d231181"
+"@swc-node/core@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@swc-node/core/-/core-1.7.0.tgz#a891a91d7ce2544326a63ba5ce5fa1fc81a26bca"
   dependencies:
-    "@swc/core" "^1.2.80"
+    "@swc/core" "^1.2.97"
 
-"@swc-node/register@^1.3.5":
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/@swc-node/register/-/register-1.3.5.tgz#49c440c871a2f0170bfbc493e587f09cbfa762e7"
+"@swc-node/register@^1.3.6":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@swc-node/register/-/register-1.3.6.tgz#09add19482a0a1608eb7385a0cb09c382d901dd6"
   dependencies:
-    "@swc-node/core" "^1.6.0"
-    "@swc-node/sourcemap-support" "^0.1.8"
+    "@swc-node/core" "^1.7.0"
+    "@swc-node/sourcemap-support" "^0.1.9"
     chalk "^4.1.2"
     debug "^4.3.2"
     pirates "^4.0.1"
-    typescript "^4.3.5"
+    typescript "^4.4.4"
 
-"@swc-node/sourcemap-support@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.npmjs.org/@swc-node/sourcemap-support/-/sourcemap-support-0.1.8.tgz"
+"@swc-node/sourcemap-support@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@swc-node/sourcemap-support/-/sourcemap-support-0.1.9.tgz#816fd347148f81c5a16dac005d57b013bf0b54df"
   dependencies:
-    source-map-support "^0.5.19"
+    source-map-support "^0.5.20"
 
-"@swc/core-android-arm64@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.85.tgz#119c676a28f4bec1334ac1f4a72d64fdca050dbe"
+"@swc/core-android-arm64@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.99.tgz#bc3d0116017628cf92ddef65607e98534ca16d28"
 
-"@swc/core-darwin-arm64@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.85.tgz#3be26e5662aed1a4894a88e8069f19f2b38d12e8"
+"@swc/core-darwin-arm64@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.99.tgz#0e8f79664129117032ca8b1a46ce7a0af9f3c2bd"
 
-"@swc/core-darwin-x64@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.85.tgz#1fa422d64f524cacbc45adf142f37c75864d210d"
+"@swc/core-darwin-x64@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.99.tgz#a155cdef12d45d5c3261ec782141361da571a7f9"
 
-"@swc/core-freebsd-x64@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-freebsd-x64/-/core-freebsd-x64-1.2.85.tgz#9999362a129d4e27f31f0cc768eeabe6ae45a011"
+"@swc/core-linux-arm-gnueabihf@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.99.tgz#d8c1c5987a752beac58a3473c5e3690876d19150"
 
-"@swc/core-linux-arm-gnueabihf@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.85.tgz#8a6000928872857a870ccbf305fbfb83ad0f8506"
+"@swc/core-linux-arm64-gnu@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.99.tgz#bb9eeac81fc4b41461348abb1fec730f4a2d1832"
 
-"@swc/core-linux-arm64-gnu@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.85.tgz#04940c093fd5ccc2ccb7f64c7cf4bab7c4ac5924"
+"@swc/core-linux-arm64-musl@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.99.tgz#afd961e9678a05979aef53271d1277b6c4aa90de"
 
-"@swc/core-linux-arm64-musl@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.85.tgz#892e39a46316b576d8dfb652a1d6b7c31960c9f9"
+"@swc/core-linux-x64-gnu@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.99.tgz#54944da80104dab23bf3197691652afc88103931"
 
-"@swc/core-linux-x64-gnu@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.85.tgz#1aacb1d07d17a3b2e94b6bcc81588d01319ab414"
+"@swc/core-linux-x64-musl@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.99.tgz#9704bd6f50efa0ba04300cc80aa0072d7da6ccc5"
 
-"@swc/core-linux-x64-musl@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.85.tgz#fafd326a22ad8e62da2fc5253e10e240cc9e8b8c"
+"@swc/core-win32-arm64-msvc@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.99.tgz#e9c127425380230127037181805d7c720ef2e2ce"
 
-"@swc/core-win32-arm64-msvc@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.85.tgz#a3c1964b1c098a44ddd15ee88a1af3d5a0713e14"
+"@swc/core-win32-ia32-msvc@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.99.tgz#8da5bc29d1be0e31b7e58e6fac40f4a3cade06e0"
 
-"@swc/core-win32-ia32-msvc@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.85.tgz#d5f2012a0f9b45ffca2845e3383933b9a2bcc791"
+"@swc/core-win32-x64-msvc@1.2.99":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.99.tgz#ed80fc3db168c4ece9223d1234b976e3d7212213"
 
-"@swc/core-win32-x64-msvc@^1.2.85":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.85.tgz#5c2966543dd26345baf778159d7953f76f748263"
-
-"@swc/core@^1.2.80":
-  version "1.2.85"
-  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.85.tgz#557d80c91a1d6d5a12b10fc2d654a58883aef44e"
+"@swc/core@^1.2.97":
+  version "1.2.99"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.99.tgz#e763809595ac0e153b0b30c88381a4ee8f71313b"
   dependencies:
     "@node-rs/helper" "^1.0.0"
   optionalDependencies:
-    "@swc/core-android-arm64" "^1.2.85"
-    "@swc/core-darwin-arm64" "^1.2.85"
-    "@swc/core-darwin-x64" "^1.2.85"
-    "@swc/core-freebsd-x64" "^1.2.85"
-    "@swc/core-linux-arm-gnueabihf" "^1.2.85"
-    "@swc/core-linux-arm64-gnu" "^1.2.85"
-    "@swc/core-linux-arm64-musl" "^1.2.85"
-    "@swc/core-linux-x64-gnu" "^1.2.85"
-    "@swc/core-linux-x64-musl" "^1.2.85"
-    "@swc/core-win32-arm64-msvc" "^1.2.85"
-    "@swc/core-win32-ia32-msvc" "^1.2.85"
-    "@swc/core-win32-x64-msvc" "^1.2.85"
+    "@swc/core-android-arm64" "1.2.99"
+    "@swc/core-darwin-arm64" "1.2.99"
+    "@swc/core-darwin-x64" "1.2.99"
+    "@swc/core-linux-arm-gnueabihf" "1.2.99"
+    "@swc/core-linux-arm64-gnu" "1.2.99"
+    "@swc/core-linux-arm64-musl" "1.2.99"
+    "@swc/core-linux-x64-gnu" "1.2.99"
+    "@swc/core-linux-x64-musl" "1.2.99"
+    "@swc/core-win32-arm64-msvc" "1.2.99"
+    "@swc/core-win32-ia32-msvc" "1.2.99"
+    "@swc/core-win32-x64-msvc" "1.2.99"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -2564,6 +2559,13 @@ source-map-support@^0.5.19:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
+source-map-support@^0.5.20:
+  version "0.5.20"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
+  dependencies:
+    buffer-from "^1.0.0"
+    source-map "^0.6.0"
+
 source-map@^0.6.0:
   version "0.6.1"
   resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz"
@@ -2814,7 +2816,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.3.5, typescript@^4.4.4:
+typescript@^4.4.4:
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
 
