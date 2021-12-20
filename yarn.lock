@@ -119,96 +119,96 @@
   version "0.14.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz"
 
-"@swc-node/core@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@swc-node/core/-/core-1.8.0.tgz#76389ab2881bd9caa5ccf90932856455271c53da"
+"@swc-node/core@^1.8.2":
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/@swc-node/core/-/core-1.8.2.tgz#950ad394a8e8385658e6a951ec554bbf61a1693e"
   dependencies:
-    "@swc/core" "^1.2.104"
+    "@swc/core" "^1.2.119"
 
-"@swc-node/register@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@swc-node/register/-/register-1.4.0.tgz#bbd3c445ae95be1bf1cf247a7fb4174b2516c055"
+"@swc-node/register@^1.4.2":
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/@swc-node/register/-/register-1.4.2.tgz#98801cc5ad8792519511bd6ae31c01f40aa487a3"
   dependencies:
-    "@swc-node/core" "^1.8.0"
-    "@swc-node/sourcemap-support" "^0.1.10"
-    chalk "^4.1.2"
-    debug "^4.3.2"
-    pirates "^4.0.1"
+    "@swc-node/core" "^1.8.2"
+    "@swc-node/sourcemap-support" "^0.1.11"
+    chalk "4"
+    debug "^4.3.3"
+    pirates "^4.0.4"
     tslib "^2.3.1"
-    typescript "^4.4.4"
+    typescript "^4.5.3"
 
-"@swc-node/sourcemap-support@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@swc-node/sourcemap-support/-/sourcemap-support-0.1.10.tgz#85b9b3951a0581dd2493333a956f92260c982b66"
+"@swc-node/sourcemap-support@^0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@swc-node/sourcemap-support/-/sourcemap-support-0.1.11.tgz#50cda396baade0636e8f53596b7a66386490c06d"
   dependencies:
-    source-map-support "^0.5.20"
+    source-map-support "^0.5.21"
 
-"@swc/core-android-arm64@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.106.tgz#86fb16a40d112502051252dfa29c8482b341ce36"
+"@swc/core-android-arm64@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-android-arm64/-/core-android-arm64-1.2.121.tgz#f3508a8e1022ea05c4658082c21000073a404889"
 
-"@swc/core-darwin-arm64@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.106.tgz#02a9ce94fee6d7f8a81a94233e4c455d55273fed"
+"@swc/core-darwin-arm64@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-arm64/-/core-darwin-arm64-1.2.121.tgz#6a24a51de1deab84ac66a9f8de7c4dee18426e68"
 
-"@swc/core-darwin-x64@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.106.tgz#72448061266e9fb44427898bd13154ec3b63ebba"
+"@swc/core-darwin-x64@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-darwin-x64/-/core-darwin-x64-1.2.121.tgz#2d72c20193ea7004823b25e6a54ae3a1ee83f77d"
 
-"@swc/core-freebsd-x64@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-freebsd-x64/-/core-freebsd-x64-1.2.106.tgz#070ec3ab798009ac14a18c692ede1542b5640ef1"
+"@swc/core-freebsd-x64@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-freebsd-x64/-/core-freebsd-x64-1.2.121.tgz#7ad96b94882a17ad89cb820dd9eabfa26c5cadbb"
 
-"@swc/core-linux-arm-gnueabihf@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.106.tgz#a94a29bfe81425c6f90a27d5977e58cb469db0a0"
+"@swc/core-linux-arm-gnueabihf@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.2.121.tgz#3567a0555c3a7b6345d6a262230cdfb0ca1141e8"
 
-"@swc/core-linux-arm64-gnu@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.106.tgz#6ec685cd37ab3655dbc8eb07a38df6d9532ac32c"
+"@swc/core-linux-arm64-gnu@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.2.121.tgz#f924933fff5fdb0cb52f27bef34d34a0ab517442"
 
-"@swc/core-linux-arm64-musl@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.106.tgz#805841ab7bcca134a2712fb1084c09338ef61168"
+"@swc/core-linux-arm64-musl@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.2.121.tgz#af37e5496b1f9b55b1ee491a62c63d5018fbe431"
 
-"@swc/core-linux-x64-gnu@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.106.tgz#d403dfce5d31dafd5d87491ce80ed603545e4864"
+"@swc/core-linux-x64-gnu@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.2.121.tgz#0585a219efe5f94c4e56da51e8839e22a6b9ccde"
 
-"@swc/core-linux-x64-musl@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.106.tgz#0fce602e60cf1c9d9e72d33083dda18b963b3b6d"
+"@swc/core-linux-x64-musl@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.2.121.tgz#2da89ba6eace4f08b4094ec546711f9e882377d4"
 
-"@swc/core-win32-arm64-msvc@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.106.tgz#c0e6f5b38a6eac8a5ce438492f23c4ffc47f326f"
+"@swc/core-win32-arm64-msvc@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.2.121.tgz#ccab9991cc523d89ba7ce61be10a30387283938f"
 
-"@swc/core-win32-ia32-msvc@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.106.tgz#5cf4a824a5bc3cfa6346733a3407e423c1920020"
+"@swc/core-win32-ia32-msvc@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.2.121.tgz#5dd1856ac3e3c311ab2f920b9bb59f476850ef19"
 
-"@swc/core-win32-x64-msvc@^1.2.106":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.106.tgz#237d699d25944538fda57dd879478f2cc7835827"
+"@swc/core-win32-x64-msvc@^1.2.121":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.2.121.tgz#c313d7d8668c3944fe1cd2d443b0022cec0e46e0"
 
-"@swc/core@^1.2.104":
-  version "1.2.106"
-  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.106.tgz#d1ae8d5745b6b37fcc5c076e433eb31312c81372"
+"@swc/core@^1.2.119":
+  version "1.2.121"
+  resolved "https://registry.yarnpkg.com/@swc/core/-/core-1.2.121.tgz#2c0f9b9bb3429f56b2777fd9b7eec52fedd95a02"
   dependencies:
     "@node-rs/helper" "^1.0.0"
   optionalDependencies:
-    "@swc/core-android-arm64" "^1.2.106"
-    "@swc/core-darwin-arm64" "^1.2.106"
-    "@swc/core-darwin-x64" "^1.2.106"
-    "@swc/core-freebsd-x64" "^1.2.106"
-    "@swc/core-linux-arm-gnueabihf" "^1.2.106"
-    "@swc/core-linux-arm64-gnu" "^1.2.106"
-    "@swc/core-linux-arm64-musl" "^1.2.106"
-    "@swc/core-linux-x64-gnu" "^1.2.106"
-    "@swc/core-linux-x64-musl" "^1.2.106"
-    "@swc/core-win32-arm64-msvc" "^1.2.106"
-    "@swc/core-win32-ia32-msvc" "^1.2.106"
-    "@swc/core-win32-x64-msvc" "^1.2.106"
+    "@swc/core-android-arm64" "^1.2.121"
+    "@swc/core-darwin-arm64" "^1.2.121"
+    "@swc/core-darwin-x64" "^1.2.121"
+    "@swc/core-freebsd-x64" "^1.2.121"
+    "@swc/core-linux-arm-gnueabihf" "^1.2.121"
+    "@swc/core-linux-arm64-gnu" "^1.2.121"
+    "@swc/core-linux-arm64-musl" "^1.2.121"
+    "@swc/core-linux-x64-gnu" "^1.2.121"
+    "@swc/core-linux-x64-musl" "^1.2.121"
+    "@swc/core-win32-arm64-msvc" "^1.2.121"
+    "@swc/core-win32-ia32-msvc" "^1.2.121"
+    "@swc/core-win32-x64-msvc" "^1.2.121"
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
@@ -605,6 +605,13 @@ camelcase@^6.2.0:
   version "6.2.0"
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-6.2.0.tgz"
 
+chalk@4, chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
+  dependencies:
+    ansi-styles "^4.1.0"
+    supports-color "^7.1.0"
+
 chalk@^2.0.0, chalk@^2.4.1:
   version "2.4.2"
   resolved "https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz"
@@ -612,13 +619,6 @@ chalk@^2.0.0, chalk@^2.4.1:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
-
-chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1, chalk@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
-  dependencies:
-    ansi-styles "^4.1.0"
-    supports-color "^7.1.0"
 
 chalk@^5.0.0:
   version "5.0.0"
@@ -846,9 +846,9 @@ debug@^3.2.7:
   dependencies:
     ms "^2.1.1"
 
-debug@^4.0.1, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2:
-  version "4.3.2"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.2.tgz#f0a49c18ac8779e31d4a0c6029dfb76873c7428b"
+debug@^4.0.1, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.3:
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.3.tgz#04266e0b70a98d4462e6e288e38259213332b664"
   dependencies:
     ms "2.1.2"
 
@@ -2048,10 +2048,6 @@ nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz"
 
-node-modules-regexp@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/node-modules-regexp/-/node-modules-regexp-1.0.0.tgz"
-
 normalize-package-data@^2.3.2, normalize-package-data@^2.5.0:
   version "2.5.0"
   resolved "https://registry.npmjs.org/normalize-package-data/-/normalize-package-data-2.5.0.tgz"
@@ -2322,11 +2318,9 @@ pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npmjs.org/pify/-/pify-4.0.1.tgz"
 
-pirates@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.npmjs.org/pirates/-/pirates-4.0.1.tgz"
-  dependencies:
-    node-modules-regexp "^1.0.0"
+pirates@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.4.tgz#07df81e61028e402735cdd49db701e4885b4e6e6"
 
 pkg-conf@^3.1.0:
   version "3.1.0"
@@ -2644,9 +2638,9 @@ source-map-support@^0.5.19:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
 
-source-map-support@^0.5.20:
-  version "0.5.20"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
+source-map-support@^0.5.21:
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -2909,7 +2903,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.4.4, typescript@^4.5.3:
+typescript@^4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.3.tgz#afaa858e68c7103317d89eb90c5d8906268d353c"
 
