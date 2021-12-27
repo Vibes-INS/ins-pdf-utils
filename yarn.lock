@@ -81,9 +81,9 @@
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
 
-"@napi-rs/cli@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@napi-rs/cli/-/cli-2.0.0.tgz#cf237de31548f68ad7d173279293bf24a70e5f83"
+"@napi-rs/cli@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@napi-rs/cli/-/cli-2.2.0.tgz#0129406192c2dfff6e8fc3de0c8be1d2ec286e3f"
 
 "@napi-rs/triples@^1.0.3":
   version "1.0.3"
