@@ -83,9 +83,9 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.1.0.tgz#88c35b72e79a20b79bb4c9b3e2817241a1c9f4f9"
 
-"@node-rs/helper@^1.0.0", "@node-rs/helper@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.3.0.tgz#9326c6c25db045ab827ca9a43ef2f9935d4a9353"
+"@node-rs/helper@^1.0.0", "@node-rs/helper@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.3.2.tgz#7614069d497d9ac506e6b94f1d59c627670818ef"
   dependencies:
     "@napi-rs/triples" "^1.1.0"
 
